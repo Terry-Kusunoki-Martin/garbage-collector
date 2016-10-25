@@ -1,0 +1,229 @@
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Runner: processes
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Chooser: simple
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration suite_name = "suite"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration cache_filename = "/home/tkusuno1/cs75/labs/garbage-tkusuno1-tlai1/_build/oUnit-$(suite_name).cache"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration display = "true"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration results_style_1_X = "false"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration verbose = "false"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration health_check_interval = "1."
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration testdata_dir = "none"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration chooser = "simple"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration output_html_dir = "none"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration processes_kill_period = "5."
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration runner = "processes"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration shards = "4"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration processes_grace_period = "5."
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration log_encoding = "utf-8"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration output_junit_file = "none"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Configuration output_file = "/home/tkusuno1/cs75/labs/garbage-tkusuno1-tlai1/_build/oUnit-$(suite_name)-$(shard_id).log"
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Using 4 workers maximum.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Starting worker number cinnamon#01.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Worker cinnamon#01 started.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Starting worker number cinnamon#02.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Worker cinnamon#02 started.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Starting worker number cinnamon#03.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Worker cinnamon#03 started.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Starting worker number cinnamon#04.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Worker cinnamon#04 started.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2, suite:0:tup1.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: Start test suite:0:tup1.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2, suite:0:tup1.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Test suite:0:tup1 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Sys_error("output/tup1.s: No such file or directory") in test suite:0:tup1.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#01 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2, suite:0:tup1.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: End test suite:0:tup1.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2, suite:0:tup1.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:4:oomgc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: Start test suite:4:oomgc1.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:4:oomgc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Test suite:4:oomgc1 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Sys_error("output/oomgc1.s: No such file or directory") in test suite:4:oomgc1.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#01 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:4:oomgc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: End test suite:4:oomgc1.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:4:oomgc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:5:oomgc2, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: Start test suite:5:oomgc2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:5:oomgc2, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Test suite:5:oomgc2 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Sys_error("output/oomgc2.s: No such file or directory") in test suite:5:oomgc2.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#01 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:5:oomgc2, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: End test suite:5:oomgc2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:5:oomgc2, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:6:oomgc3, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: Start test suite:6:oomgc3.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:6:oomgc3, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Test suite:6:oomgc3 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Sys_error("output/oomgc3.s: No such file or directory") in test suite:6:oomgc3.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#01 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:6:oomgc3, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: End test suite:6:oomgc3.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:6:oomgc3, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:7:oomgc4, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: Start test suite:7:oomgc4.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:7:oomgc4, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Test suite:7:oomgc4 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Sys_error("output/oomgc4.s: No such file or directory") in test suite:7:oomgc4.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#01 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:7:oomgc4, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: End test suite:7:oomgc4.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:7:oomgc4, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:8:oomgc5, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: Start test suite:8:oomgc5.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:8:oomgc5, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Test suite:8:oomgc5 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Sys_error("output/oomgc5.s: No such file or directory") in test suite:8:oomgc5.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#01 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:8:oomgc5, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: End test suite:8:oomgc5.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:8:oomgc5, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 4 tests running : suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: Start test suite:9:gc1.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 4 tests running : suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Test suite:9:gc1 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Sys_error("output/gc1.s: No such file or directory") in test suite:9:gc1.
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#01 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 4 tests running : suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#01 I: End test suite:9:gc1.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 4 tests running : suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 4 tests running: suite:9:gc1, suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 3 tests running : suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 3 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#02 I: Start test suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#03 I: Start test suite:2:tup3.
+2016-04-15T01:18:21+00:00 cinnamon#04 I: Start test suite:3:tup4.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 3 tests running : suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 3 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#03 E: Test suite:2:tup3 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#03 E: Sys_error("output/tup3.s: No such file or directory") in test suite:2:tup3.
+2016-04-15T01:18:21+00:00 cinnamon#03 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#03 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#03 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#03 E: 
+2016-04-15T01:18:21+00:00 cinnamon#04 E: Test suite:3:tup4 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#04 E: Sys_error("output/tup4.s: No such file or directory") in test suite:3:tup4.
+2016-04-15T01:18:21+00:00 cinnamon#04 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#04 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#04 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#04 E: 
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 3 tests running : suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 3 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Test suite:1:tup2 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Sys_error("output/tup2.s: No such file or directory") in test suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#02 E: 
+2016-04-15T01:18:21+00:00 cinnamon#03 I: End test suite:2:tup3.
+2016-04-15T01:18:21+00:00 cinnamon#04 I: End test suite:3:tup4.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 3 tests running : suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 3 tests running: suite:3:tup4, suite:2:tup3, suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#02 I: End test suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: Still 1 tests running : suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#00 I: 1 tests running: suite:1:tup2.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: 0 tests running: .
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Worker cinnamon#01 has ended.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Worker cinnamon#03 has ended.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Worker cinnamon#04 has ended.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Worker cinnamon#02 has ended.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Used 4 worker during test execution.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Run 1 tests with shard cinnamon#04.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Run 1 tests with shard cinnamon#03.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Run 7 tests with shard cinnamon#01.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Run 1 tests with shard cinnamon#02.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: ==============
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Summary:
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:1:tup2 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/tup2.s: No such file or directory") in test suite:1:tup2.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:3:tup4 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/tup4.s: No such file or directory") in test suite:3:tup4.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:2:tup3 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/tup3.s: No such file or directory") in test suite:2:tup3.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:9:gc1 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/gc1.s: No such file or directory") in test suite:9:gc1.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:8:oomgc5 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/oomgc5.s: No such file or directory") in test suite:8:oomgc5.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:7:oomgc4 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/oomgc4.s: No such file or directory") in test suite:7:oomgc4.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:6:oomgc3 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/oomgc3.s: No such file or directory") in test suite:6:oomgc3.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:5:oomgc2 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/oomgc2.s: No such file or directory") in test suite:5:oomgc2.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:4:oomgc1 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/oomgc1.s: No such file or directory") in test suite:4:oomgc1.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Test suite:0:tup1 exited with an error.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Sys_error("output/tup1.s: No such file or directory") in test suite:0:tup1.
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:22+00:00 cinnamon#00 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:22+00:00 cinnamon#00 E: 
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Ran: 10 tests in: 0.28 seconds.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Cases: 10.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Tried: 10.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Errors: 10.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Failures: 0.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Skip: 0.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Todo: 0.
+2016-04-15T01:18:22+00:00 cinnamon#00 I: Timeout: 0.

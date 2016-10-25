@@ -1,0 +1,8 @@
+2016-04-15T01:18:21+00:00 cinnamon#02 I: Start test suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Test suite:1:tup2 exited with an error.
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Sys_error("output/tup2.s: No such file or directory") in test suite:1:tup2.
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Raised by primitive operation at file "pervasives.ml", line 272, characters 21-47
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Called from file "pervasives.ml", line 275, characters 2-74
+2016-04-15T01:18:21+00:00 cinnamon#02 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2016-04-15T01:18:21+00:00 cinnamon#02 E: 
+2016-04-15T01:18:21+00:00 cinnamon#02 I: End test suite:1:tup2.
