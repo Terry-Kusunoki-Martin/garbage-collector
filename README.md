@@ -1,4 +1,4 @@
-The compiler my partner and I wrote is in compile.ml.  The garbage collector, which uses a mark, forward, and compact paradigm, is written in gc.c.  Test cases are written in gctest.c.  The description for this project from my instructor is copied below.
+This was a project in which my partner and I implemented a garbage collector for our compiler.  The compiler my partner and I wrote is in compile.ml.  The garbage collector, which uses a mark, forward, and compact paradigm, is written in gc.c.  Our test cases are written in gctest.c.  The description for this project from my instructor is copied below.
 
 # Garbage Snake...?
 
